@@ -1,0 +1,28 @@
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./../fonts/Roboto/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url("./../fonts/Raleway/static/Raleway-Regular.ttf");
+}
+
+*{
+  font-family: "Raleway";
+}
+
+#left-main {
+  background-image: url("./../images/1.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#right-main nav ul li a:hover{
+  color: var(--bs-navbar-active-color);
+}
+
+#right-main nav ul li .active {
+  border-bottom: 3px solid #2b2f32;
+}
